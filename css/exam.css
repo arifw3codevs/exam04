@@ -1,0 +1,173 @@
+/* site-default-css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----font-family: 'Amatic SC', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;------*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+h1,
+h2,
+h3,h4,
+h5,
+h5{
+    font-family: "nunito", "open sans";
+    font-weight: 700;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background: black;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container::before,
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-60{
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+.col-50-R{
+    width: 50%;
+    padding: 0 15px;
+    float: right;
+}
+
+.col-33{
+    width: 32%;
+    float: left;
+    padding: 0 15px;
+
+}
+/*-----1.header-----*/
+header{
+    background-color: #ffffff;
+}
+
+.logo{
+    height: 45px;
+    padding: 25px 30px;
+
+}
+
+.logo img{
+    height: 45px;
+    width: 150px;
+}
+
+.main-menu{
+    float: right;
+    padding: 25px 0;
+}
+.main-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+.main-menu li button{
+    padding: 10px;
+    background-color: #ff471c;
+}
+.home-content{
+    margin: 50px 20px;
+    padding-top: 80px;
+
+}
+.home-content h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 20px 20px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.home-content h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff471c;
+    padding: 20px 20px;
+}
+
+.home-content button{
+    background-color: #ff471c;
+    padding: 15px 25px;
+    font-size: 25px;
+    margin:20px 20px;
+    border-radius: 25%;
+}
+
+.home-content p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    padding: 20px 20px;
+}
+
+.home{
+    background-image: url(../image/1-61.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.count{
+    background-color: rgb(8, 8, 41);
+    margin: 50px 0;
+
+}
+.count-sub{
+    padding: 20px 20px;
+
+}
+.count-sub h2{
+    padding: 20px 20px;
+    color: white;
+    font-size: 45px;
+    
+}
+.count-sub h3{
+    padding: 20px 20px;
+    color: white;
+    font-size: 30px;
+    
+}
+.count-sub i{
+    padding: 20px 20px;
+    font-size: 50px;
+    color: #ff471c;
+}
+.count-sub{
+    text-align: center;
+}
